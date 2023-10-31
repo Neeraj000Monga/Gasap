@@ -6,10 +6,6 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-// interface AppProps {}
-// interface AppState {
-//   name: string;
-// }
 
 export default function App(props) {
   const number = useRef(null);
